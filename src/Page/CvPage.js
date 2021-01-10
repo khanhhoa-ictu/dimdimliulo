@@ -1,9 +1,9 @@
-import { ItemPage } from './../component/ItemPage';
+
 
 function CvPage() {
     return (
       <div>
-        <ItemPage></ItemPage>
+         <h3>a</h3>
       </div>
     );
   }

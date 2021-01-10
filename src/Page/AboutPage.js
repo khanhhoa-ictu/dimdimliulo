@@ -1,9 +1,9 @@
-import { ItemPage } from './../component/ItemPage';
+import  IteamPage  from './../component/ItemPage';
 
 function AboutPage() {
     return (
       <div>
-        <h3>a</h3>
+        <IteamPage></IteamPage>
       </div>
     );
   }

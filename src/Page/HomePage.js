@@ -1,4 +1,4 @@
-import { ItemHome } from './../component/ItemHome';
+import  ItemHome  from './../component/ItemHome';
 
 function HomePage() {
     return (
