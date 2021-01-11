@@ -5,7 +5,7 @@ import HomePage from './Page/HomePage';
 import AboutPage from './Page/AboutPage';
 import BlogPage from './Page/BlogPage';
 import CvPage from './Page/CvPage';
-
+import Item from './component/Item';
 
 const routes = [
     { 
@@ -27,6 +27,12 @@ const routes = [
         path: '/cv',
         exact: true,
         main: () => <CvPage  />
+    },
+    { 
+        path: '/blog/1',
+        exact: true,
+        main: () => <Item />
+
     },
     { 
         path: '',

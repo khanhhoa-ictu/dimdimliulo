@@ -2,9 +2,10 @@
 
 function CvPage() {
     return (
-      <div>
-         <h3>a</h3>
-      </div>
+    <div  className="bg-faded p-4 my-4">
+      <h2 className="text-center text-lg text-uppercase my-0">Coming soon</h2>
+      
+    </div>
     );
   }
   

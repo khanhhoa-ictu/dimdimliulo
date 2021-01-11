@@ -5,6 +5,7 @@
  */
 
 body {
+  
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   background: url('../img/a1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -17,15 +18,24 @@ h1, h2 h3, h4, h5, h6 {
   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-heading{
-  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .carousel-inner .carousel-item{
   max-height: 570px;
+}
+.text-heading{
+  color:#fffa4ded;
 }
 h1 {
   font-size: 4rem;
 }
 
+#title_home{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .tagline-upper {
   font-size: 5rem;
   font-weight: 700;

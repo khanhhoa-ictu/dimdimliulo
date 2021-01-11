@@ -4,8 +4,6 @@ function BlogPage() {
   return (
     <div>
       <BlogItem></BlogItem>
-      <BlogItem></BlogItem>
-      <BlogItem></BlogItem>
     </div>
   );
 }
