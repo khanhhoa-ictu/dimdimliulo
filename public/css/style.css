@@ -29,12 +29,14 @@ h1, h2 h3, h4, h5, h6 {
 h1 {
   font-size: 4rem;
 }
-
+.center{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-weight: 600;
+}
 #title_home{
   height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .tagline-upper {
   font-size: 5rem;
@@ -78,9 +80,6 @@ hr.divider {
 
 .map-container iframe.clicked {
   pointer-events: auto;
-}
-.center{
-  justify-content: center;
 }
 .homePage{
   height: 100vh;

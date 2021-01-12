@@ -1,11 +1,17 @@
-
+import Typist from 'react-typist';
+import '../../node_modules/react-typist/dist/Typist.css';
 
 function ItemHome() {
     return (
-      <div  className="bg-faded p-4 my-4">
-		    <h2 className="text-center text-lg text-uppercase my-0" id="title_home">Xin chào các bạn mình là Hòa là một frontend developer</h2>
-         {/* <h2 className="text-center text-lg text-uppercase my-0">là một lập trình viên</h2>
-         <h2 className="text-center text-lg text-uppercase my-0">một font end developer</h2> */}
+      <div  className="bg-faded p-4 my-4" id="title_home">
+        <div className="text-lg text-uppercase center">
+        <Typist>
+          <span> Xin chào các bạn mình là Diễm là một frontend dev</span>
+          <Typist.Backspace count={13} delay={500} />
+          <span > Nông dân trồng hoa </span>
+        </Typist>
+        </div>
+        
       </div>
     );
   }
