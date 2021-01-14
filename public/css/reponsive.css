@@ -3,15 +3,26 @@
         display: none;
     }
   }
-  @media only screen and (max-width: 430px) {
-    p {
+  @media only screen and (max-width: 994px) {
+    .text-h {
         display: none;
     }
     h3{
-        font-size: 150%;
+        font-size: 120%;
     }
     .btn .btn-secondary{
-        font-size: 80%;
+        font-size: 65%;
+    }
+
+  @media only screen and (max-width: 430px) {
+    .text-h{
+        display: none;
+    }
+    h3{
+        font-size: 120%;
+    }
+    .btn .btn-secondary{
+        font-size: 65%;
     }
 
   }
